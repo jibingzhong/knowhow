@@ -1,0 +1,105 @@
+
+/*公共*/
+.hide{
+	display: none;
+}
+.no-pm{
+	margin: 0rem;
+	padding: 0rem;
+}
+
+.in-block{
+	display: inline-block;
+}
+
+div.tright{
+	text-align: right;
+}
+.content-block .card{
+	height: 6rem;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	border-bottom:1px solid #e1ecf4; 
+}
+
+.tags a{
+	display: inline-block;
+	color: #39739d;
+	text-align: center;
+	height: 1rem;
+	line-height: 1rem;
+	padding: 0 0.3rem;
+	background: #e1ecf4;
+	margin: 2px 0;
+}
+li.list_item{
+	padding: 0.1rem 0.5rem;
+	border-bottom: 2px solid  #e1ecf4;
+}
+
+.asktex{
+	width:90%;
+	margin-left:0.3rem; 
+	padding:0.5rem;
+	resize:none;
+	border:1px solid gray;
+}
+
+.askinfo_box{
+	
+}
+#askinfo hr{
+	border-color: rgba(247, 244, 244, 0.22);
+}
+.rowpad{
+	margin-left:0px; 
+}
+.rowmar{
+	margin-top:0.5rem;
+}
+.iconzan{
+	transform:rotate(180deg);
+}
+.zannum,.cainum{
+	font-size:14px;
+}
+.mar{
+	margin:0;
+}
+.asktag{
+	font-size: 14px;
+}
+.listmar{
+	margin:0.2rem 0;
+}
+.askinfomar{
+	margin-left:17px;
+}
+
+.anslist{
+	background: #efeff4 !important;
+}
+.anslist li{
+	background: #FFF !important;
+	margin-top: 10px ;
+}
+.askinfo_list .item-subtitle,.anslist .item-subtitle{
+	margin-top: 15px;
+}
+
+.askinfotag{
+	margin-left:0;
+}
+.tag div{
+	text-align: center;
+	background:#b5ddf5;
+	display:inline-block;
+	padding: 0px 10px;
+}
+
+.up{
+	background: none;
+	color: red;
+	font-size: 1rem;
+}

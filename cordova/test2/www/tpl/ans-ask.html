@@ -1,0 +1,30 @@
+<div class="page-group">
+  <div class="page">
+    <header class="bar bar-nav"> 
+               <a class="button button-link button-nav pull-left back" href="#">
+              <span class="icon icon-left"></span>
+            </a>
+                <a href="home.html" class="tab-item external pull-right active">
+                    <span class="icon icon-home"></span>
+                </a>
+                <h1 class="title">我回答的问题</h1>
+           </header>
+           <div class="content">
+            <div class="list-block">
+            <ul class="ans-ask">
+            <script id="info-ans-tpl" type="text/x-handlebars-template">
+              {{#each this}}
+              <li>
+              <div class="item-content">
+                  <div class="item-inner">
+                    <a href="#" >{{this.title}}</a>
+                  </div>
+              </div>
+          </li>
+          {{/each}}
+        </script>
+            </ul>
+            </div>
+           </div>
+  </div>
+</div>

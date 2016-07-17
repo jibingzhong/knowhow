@@ -1,0 +1,163 @@
+<html class="pixel-ratio-1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>stack</title>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="stylesheet" type="text/css" href="src/dist/css/sm.css">
+  <link rel="stylesheet" type="text/css" href="src/dist/css/sm.extends.css">
+  <link rel="stylesheet" type="text/css" href="css/iconfont.css">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <link rel="stylesheet" type="text/css" href="css/pagination.css">
+ 
+  <script type="text/javascript" src="src/dist/js/zepto.js"></script>
+  <script type="text/javascript" src="src/dist/js/jquery.pagination.js"></script>
+  <script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+  <script type='text/javascript' src='src/dist/js/sm.js' charset='utf-8'></script>
+  <script type='text/javascript' src='src/dist/js/sm-extend.min.js' charset='utf-8'></script>
+  <script type='text/javascript' src='js/app.js' charset='utf-8'></script>
+  <script type="text/javascript" src="js/que_tpl.js"></script>
+  <script type="text/javascript" src="js/askByTag.js"></script>
+<script type="text/javascript">
+  $(document).on('touchstart','.cancel',function(){
+    $('#panel-right-demo').load('tpl/unlog.html');
+  })
+  $(document).one('touchstart','#reg',function(){
+    if($('.password').val()!==$('.repassword').val()){
+      return false;
+    }
+    console.log(111)
+      $.ajax({
+        type:'post',
+        url:"http://localhost/knowhow/Home/User/reg",
+        data:{
+          name:$('.nickname').val(),
+          username:$('.username').val(),
+          password:$('.password').val(),
+        },
+        success:function(data){
+          if(!isNaN(parseInt(data))){
+              $('#panel-right-demo').load('tpl/unlog.html');
+              return false;
+          }else{
+            $.toast(data);
+          }
+        }
+      })
+  })
+</script>
+<script type="text/javascript">
+  $(document).on('touchstart','.reg',function(){
+    $('#panel-right-demo').load('tpl/reg.html');
+  })
+  $(document).on('touchstart','#log',function(e){
+  $.ajax({
+    post:'psot',
+    url:"http://localhost/knowhow/index.php/Home/User/login",
+    data:{
+      username:$('.username').val(),
+      password:$('.password').val()
+    },
+    success:function(data){
+        localStorage.setItem('myInfo',JSON.stringify(data));
+        location.href="http://localhost/cordova/test2/www/home.html";
+    },
+    error:function(data,status){
+        $.toast('账号或密码错误');
+        $('.username').val('');
+      $('.password').val('');
+    }
+  })
+})
+  $(document).on('touchstart','.layout',function(){
+        $.ajax({
+          type:'post',
+          url:"http://localhost/knowhow/index.php/Home/User/layout",
+          success:function(data){
+              if(data=='退出登录成功'){
+                localStorage.clear();
+                location.href="http://localhost/cordova/test2/www/home.html";
+              }
+          }
+        })
+      })
+</script>
+<script type="text/javascript">
+  $(function(){
+  var userInfo=JSON.parse(localStorage.getItem('myInfo'));
+  $(document).on('touchstart','a.myans',function(e){
+         $(window).on("pageLoadComplete",function(data) {//加载问题详情模版
+        var source=$("#info-ans-tpl").html();
+          if(source!=null){
+            var tmp=Handlebars.compile(source);
+              var rs=tmp(userInfo[0].AnsAsk);
+            $(".ans-ask").html(rs); 
+         } 
+     }) 
+  })
+ $(document).on('touchstart','a.myask',function(e){
+         $(window).on("pageLoadComplete",function(data) {//加载问题详情模版
+        var source=$("#info-tpl").html();
+          if(source!=null){
+            var tmp=Handlebars.compile(source);
+            var rs=tmp(userInfo[0].Ask);
+            $(".ans-ask").html(rs); 
+         } 
+     }) 
+  })
+  })
+  </script>
+</head>
+<body>
+  <div class="page-group">
+      <!-- 你的html代码 -->
+    <div class="page page-current" id="page-home">
+      <!--header-->
+        <header class="bar bar-nav">
+          <div class="row">
+            <div class="col-33" style="line-height:2.2rem">图标</div>
+            <div class="col-33 top-title" style="text-align:center;line-height:2.2rem">所有问题</div>
+            <div class="col-33">
+              <a href="#" class="icon icon-me open-panel pull-right load_reg" data-panel='#panel-right-demo'></a>
+              <a href="#" class="icon icon-edit open-popup open-ask" data-popup="#ask"></a>
+              <a href="#" class="icon icon-search open-popup open-search" style="margin-left:10%" data-popup="#search"></a>
+            </div>
+          </div>
+        </header>
+        <!--footer-->
+        <nav class="bar bar-tab">
+          <a class="tab-item active home" href="#">
+          <span class="icon icon-home"></span>
+          <span class="tab-label">首页</span>
+          </a>
+          <a class="tab-item tag" href="#">
+          <span class="icon icon-menu"></span>
+          <span class="tab-label">标签</span>
+          <!-- <span class="badge">2</span> -->
+          </a>
+          <a class="tab-item person" href="#">
+          <span class="icon icon-friends"></span>
+          <span class="tab-label">个人中心</span>
+          </a>
+        </nav> 
+        <div class="bar bar-header-secondary buttons-tab " >
+          
+        </div>
+        <div class="content" >
+
+          
+        </div>
+           
+    </div> 
+  </div> 
+  <div class="panel_popup"></div>
+
+
+<script type="text/javascript">
+  $.init();
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+    <div class="card-container">
+        
+        
+    </div>
+
+
+
+<script id="card-tpl" type="text/x-handlebars-template">
+{{#each this}}
+      <div class="card row no-gutter" >
+        <div class="col-20" style="height:100%;padding:0.5rem 0">
+          <div class="no-pm tright"><span class="scan">{{viewcount}}</span><i class="iconfont liulan">&#xe604;</i></div>
+          <div class="no-pm tright"><span class="votes in-block">{{vote zan cai}}</span><i class="iconfont sanjiaoxing">&#xe607;</i></div>
+          <div class="no-pm tright"><span class="ans in-block">{{ansnum}}</span><i class="iconfont huidaa">&#xe605;</i></div>   
+        </div>
+        <div class="col-80">
+          <div class="card-content" style="padding:0;margin:0">
+            <div class="card-content-inner" style="text-align:left">
+              <a href="ques_detail.html?aid={{id}}" data-aid={{id}} class="aid" data-no-cache='true'>{{title}}</a>
+              <div class="tags">
+              {{#each tag}}
+                <a class="tid" href="tag_q.html?tid={{id}}" data-tid={{id}}>{{this.tagname}}</a>
+              {{/each}}
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="total" style="display:none">{{total}}</span> 
+            <a href="person_page.html?userid={{uid}}" external>{{userinfo.name}}</a>
+          <span>{{#if time}}{{time}}{{else}}{{publishtime}}{{/if}}</span>
+          </div>
+        </div>
+      </div>
+  {{/each}}
+</script>
+
+
+<script>
+showAllAsk(tab,page);
+function showAllAsk(tab,page){
+  $.ajax({
+    type:"post",
+    url:"http://localhost/knowhow/index.php/Home/Ask/showAllAsks?sort="+tab+"&page="+page,
+    success:function(data){ 
+      Handlebars.registerHelper('vote', function(zan,cai) {
+          return zan-cai;
+        });       
+        var source=Handlebars.compile($('#card-tpl').html())
+        var rs = source(data);       
+        $(".card-container").html(rs);
+    }
+  })
+}
+</script>

@@ -1,0 +1,70 @@
+<script id="askinfotmp" type="text/x-handlebars-template">
+	
+    <div class="row rowpad askinfomar">
+        <h3 class="">{{this.title}}</h3>
+        <div class="row tag askinfotag">
+        	{{#each tags}}
+            	<a data-tid={{this.id}} style="background: #D8F2FC;color:#9F6FEC">{{this.tagname}}</a>             
+        	{{/each}}
+        </div>
+    </div>             
+    <hr/>
+    <div class="list-block media-list listmar">
+        <ul class="askinfo_list">
+            <li>
+                <div class="item-content">
+                    <div class="item-inner">
+                     	<div class="row rowpad">
+                            <a href="" title="">{{this.name}}</a>发布于
+                            <span>{{this.publishtime}}</span>
+                        </div>
+                        <div class="item-subtitle">{{this.content}}</div>
+                        <div class="row rowpad rowmar">
+                           
+                             <div class="row rowpad">
+                                <div class="pull-left askopt alert-text-title-callback">
+                                    <span class="icon icon-caret iconzan zan askopt"></span>
+                                    <span class="zannum">{{this.zan}}</span>&nbsp;&nbsp;
+                                    <span class="icon icon-caret cai askopt"></span>
+                                    <span class="cainum">{{this.cai}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <h4><span class="ansnum askinfomar">{{this.ansnum}}</span>个回答</h4>
+
+    <hr/>
+    <div class="list-block media-list listmar">
+        <ul class="anslist">
+        	{{#each answers}}
+        	    <li>
+	                <div class="item-content">
+	                  <div class="item-inner">
+	                    <div class="row rowpad">
+                            <a href="" >{{this.name}}</a>发布于
+                            <span>{{this.publishtime}}</span>
+                        </div>
+	                    <div class="item-subtitle">{{this.content}}</div>
+	                    <div class="row rowpad rowmar">                      
+	                      
+	                        <div class="row rowpad">
+	                            <div class="pull-left ansopt" data-ansid={{this.id}}>
+	                                <span class="icon icon-caret iconzan ansopt zan"></span>
+	                                <span class="ans_zannum">{{this.zan}}</span>&nbsp;&nbsp;
+	                                <span class="icon icon-caret ansopt cai"></span>
+	                                <span class="ans_cainum">{{this.cai}}</span>
+	                            </div>
+	                        </div>
+	                    </div>
+	                  </div>
+	                </div>
+	              </li>
+        	{{/each}}
+          
+        </ul>
+    </div>
+</script>

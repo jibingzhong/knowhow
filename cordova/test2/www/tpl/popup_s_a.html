@@ -1,0 +1,173 @@
+
+<!--popup-->
+    <div class="popup popup-search" id="search">
+      <div class="content-block">
+        <header class="bar bar-nav">
+        <div class="row">
+            <div class="col-20"><a class="button button-link button-nav pull-left close-popup" href="#">
+               <span class="icon icon-left"></span>取消</a></div>
+            <div class="searchbar col-80 row" style="background-color:#f7f7f8">
+              <div class="search-input col-80">
+                <input type="search" placeholder='输入关键字...' style="border:1px solid silver"/>
+              </div>
+              <a class="button button-fill button-primary col-20" style="top:0rem">
+                <span class="icon icon-search" style="line-height:1.5rem;"></span>
+              </a>
+           </div>
+        </div>
+      </header>
+      <div class="content">
+      </div>
+    </div>
+</div>   <!--popup-->
+
+<!--popup_ask-->
+    <div class="popup popup-ask" id="ask">
+      <div class="content-block">
+        <header class="bar bar-nav">
+          <h1 class='title'>发布问题</h1>
+        </header>
+        <div class="content">
+          <div class="list-block">
+            <ul>
+              <!-- Text inputs -->
+              <li>
+                <div class="item-content">
+                  <div class="item-media"><i class="icon icon-form-name"></i></div>
+                  <div class="item-inner">
+                    <div class="item-title label"><label for="asktitle">问题标题</label></div>
+                    <div class="item-input">
+                      <input type="text" placeholder="请输入问题标题" id="asktitle">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="item-content">
+                  <div class="item-media"><i class="icon icon-form-name"></i></div>
+                  <div class="item-inner">
+                    <div class="item-title label">问题类型</div>
+                    <div class="item-input">
+                      <select name="asktype" id="asktype" multiple="true">
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="item-content">
+                  <div class="item-media"><i class="icon icon-form-name"></i></div>
+                  <div class="item-inner">
+                    <div class="item-title label">问题内容</div>
+                  </div>
+                </div>
+              </li>        
+              <li class="align-top">
+                <div class="item-content">
+                  <div class="item-media"><i class="icon icon-form-comment"></i></div>
+                  <div class="item-inner">
+                    <div class="item-input" style="border:1px solid gray;height:20%">
+                      <textarea id="askcontent"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="item-content">
+                  <div class="item-media"><i class="icon icon-form-toggle"></i></div>
+                  <div class="item-inner">
+                    <div class="item-title label">悬赏</div>
+                    <div class="item-input">
+                      <label class="label-switch">
+                        <input type="checkbox" id="switch">
+                        <div class="checkbox"></div>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="reward hide">
+                <div class="item-content">
+                  <div class="item-media"><i class="icon icon-form-name"></i></div>
+                  <div class="item-inner">
+                    <div class="item-title label">悬赏值</div>
+                    <div class="item-input">
+                      <input type="text" placeholder="请输入悬赏值">
+                    </div>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <div class="item-media"><i class="icon icon-form-name"></i></div>
+                  <div class="item-inner">
+                    <div class="item-title label">悬赏时间</div>
+                    <div class="item-input">
+                      <input type="datetime-local" id='datetime-picker'>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <div class="item-media"><i class="icon icon-form-name"></i></div>
+                  <div class="item-inner">
+                    <div class="item-title label">悬赏内容</div>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <div class="item-media"><i class="icon icon-form-comment"></i></div>
+                  <div class="item-inner">
+                    <div class="item-input" style="border:1px solid gray;height:20%">
+                      <textarea class="con"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="content-block">
+            <div class="row">
+              <div class="col-50"><a href="#" class="button button-big button-fill button-danger close-popup">取消</a></div>
+              <div class="col-50"><a href="#" class="button button-big button-fill button-success close-popup" id="pub-ask">提交</a></div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>   <!--popup-->
+<script type="text/javascript">
+
+    var op='';
+    $.ajax({
+      type:'post',
+      url:'http://localhost/index.php/knowhow/Home/Tag/getAllTags',
+      success:function(data){
+        if(data){
+          $.each(data,function(i,d){
+            op+='<option value="' + d.id + '">' + d.tagname+ '</option>';
+
+          })
+          $('#asktype').append(op);
+        }
+      }
+    })
+  $(document).on('touchend','#pub-ask',function(){
+      console.log($('#asktitle').val(),$('#asktype').val(),$('#askcontent').val())
+      $.ajax({
+        type:'post',
+        url:'http://localhost/index.php/knowhow/Home/Ask/addOneAsk',
+        data:{
+          title:$('#asktitle').val(),
+          content:$('#askcontent').val(),
+          type:$('#asktype').val()
+        },
+        success:function(data){
+          if(data){  
+            $(document).on('pageInit','#page-home',function(){
+                location.href="http://localhost/cordova/test2/www/home.html";
+            });
+            $.init();
+          }else{
+            $.toast('发布失败');
+          }
+        }
+      })
+  })
+
+</script>

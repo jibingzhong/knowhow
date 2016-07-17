@@ -1,0 +1,2587 @@
+[ 2016-06-08T09:32:24+08:00 ] ::1 /knowhow/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-06-08T09:32:40+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0027s ]
+ERR: Think\Model:queryOneAsk方法不存在！
+
+[ 2016-06-08T09:33:41+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_ask`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-06-08T09:33:53+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_ask`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-06-08T09:34:30+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `t_ask`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_asknote` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `t_asknote` WHERE ( 1=1 AND aid='1' ) ORDER BY publishtime asc  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-06-08T09:34:40+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_ask`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_asknote` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_asknote` WHERE ( 1=1 AND aid='1' ) ORDER BY publishtime asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-06-08T09:34:43+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_ask`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_asknote` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `t_asknote` WHERE ( 1=1 AND aid='1' ) ORDER BY publishtime asc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-06-08T09:56:57+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0026s ]
+SQL: select  (case when publishTime > isnull(answerTime) then publishTime else answerTime end) as time from t_ask [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-06-08T09:56:58+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select  (case when publishTime > isnull(answerTime) then publishTime else answerTime end) as time from t_ask [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-06-08T09:58:32+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0024s ]
+SQL: select  (case when publishTime > answerTime then publishTime else answerTime end) as time from t_ask [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-06-08T09:59:09+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0025s ]
+SQL: select  (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) as time from t_ask [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2016-06-08T10:05:40+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as newtime
+		then  editTime else newtime end) as time from t_user group by id o' at line 2
+ [ SQL语句 ] : select id,title,content,zan,cai,viewCount,asktype,bounty,uid,
+		(case when ifnull(editTime,0)>(select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask) as newtime
+		then  editTime else newtime end) as time from t_user group by id order by time
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as newtime
+		then  editTime else newtime end) as time from t_user group by id o' at line 2
+ [ SQL语句 ] : select id,title,content,zan,cai,viewCount,asktype,bounty,uid,
+		(case when ifnull(editTime,0)>(select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask) as newtime
+		then  editTime else newtime end) as time from t_user group by id order by time
+
+[ 2016-06-08T10:07:12+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0024s ]
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : select id,title,content,zan,cai,viewCount,asktype,bounty,uid,
+		(case when ifnull(editTime,0)>(select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask)
+		then  editTime else (select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask) end) as time from t_user group by id order by time
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : select id,title,content,zan,cai,viewCount,asktype,bounty,uid,
+		(case when ifnull(editTime,0)>(select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask)
+		then  editTime else (select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask) end) as time from t_user group by id order by time
+
+[ 2016-06-08T10:07:52+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+ERR: 1054:Unknown column 'editTime' in 'field list'
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask)
+		then  editTime else (select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask) end) as time from t_user group by id order by time
+ERR: 1054:Unknown column 'editTime' in 'field list'
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask)
+		then  editTime else (select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask) end) as time from t_user group by id order by time
+
+[ 2016-06-08T10:08:49+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+ERR: 1242:Subquery returns more than 1 row
+ [ SQL语句 ] : select id,title,content,zan,cai,viewCount,asktype,bounty,uid,
+		(case when ifnull(editTime,0)>(select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask)
+		then  editTime else (select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask) end) as time from t_ask group by id order by time
+ERR: 1242:Subquery returns more than 1 row
+ [ SQL语句 ] : select id,title,content,zan,cai,viewCount,asktype,bounty,uid,
+		(case when ifnull(editTime,0)>(select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask)
+		then  editTime else (select case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end from t_ask) end) as time from t_ask group by id order by time
+
+[ 2016-06-08T10:10:09+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select id,title,content,zan,cai,viewCount,asktype,bounty,uid,
+		(case when ifnull(editTime,0)>(select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) as newtime from t_ask)
+		then  editTime else newtime end) as time from t_ask group by id order by time
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select id,title,content,zan,cai,viewCount,asktype,bounty,uid,
+		(case when ifnull(editTime,0)>(select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) as newtime from t_ask)
+		then  editTime else newtime end) as time from t_ask group by id order by time
+
+[ 2016-06-08T10:11:03+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) as newtime from t_ask)
+		then  editTime else newtime end) as time from t_ask
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) as newtime from t_ask)
+		then  editTime else newtime end) as time from t_ask
+
+[ 2016-06-08T10:11:37+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_ask) as newtime)
+		then  editTime else newtime end) as time from t_ask' at line 1
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select ((case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask) as newtime)
+		then  editTime else newtime end) as time from t_ask
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from t_ask) as newtime)
+		then  editTime else newtime end) as time from t_ask' at line 1
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select ((case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask) as newtime)
+		then  editTime else newtime end) as time from t_ask
+
+[ 2016-06-08T10:13:24+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select (select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask) as newtime, (case when ifnull(editTime,0)>
+		newtime then  editTime else newtime end) as time from t_ask
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select (select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask) as newtime, (case when ifnull(editTime,0)>
+		newtime then  editTime else newtime end) as time from t_ask
+
+[ 2016-06-08T10:13:56+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0026s ]
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select (select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask) newtime, (case when ifnull(editTime,0)>
+		newtime then  editTime else newtime end) as time from t_ask
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select (select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask) newtime, (case when ifnull(editTime,0)>
+		newtime then  editTime else newtime end) as time from t_ask
+
+[ 2016-06-08T10:14:10+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select (select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) newtime from t_ask) , (case when ifnull(editTime,0)>
+		newtime then  editTime else newtime end) as time from t_ask
+ERR: 1054:Unknown column 'newtime' in 'field list'
+ [ SQL语句 ] : select (select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) newtime from t_ask) , (case when ifnull(editTime,0)>
+		newtime then  editTime else newtime end) as time from t_ask
+
+[ 2016-06-08T10:15:23+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0216s ]
+ERR: 1242:Subquery returns more than 1 row
+ [ SQL语句 ] : select (select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask)  from t_ask
+ERR: 1242:Subquery returns more than 1 row
+ [ SQL语句 ] : select (select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask)  from t_ask
+
+[ 2016-06-08T10:16:10+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'newtime then  editTime else 0 end) as time from t_ask' at line 2
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask)
+		newtime then  editTime else 0 end) as time from t_ask
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'newtime then  editTime else 0 end) as time from t_ask' at line 2
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask)
+		newtime then  editTime else 0 end) as time from t_ask
+
+[ 2016-06-08T10:16:33+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+ERR: 1242:Subquery returns more than 1 row
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask)
+		 then  editTime else 0 end) as time from t_ask
+ERR: 1242:Subquery returns more than 1 row
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>(select (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) from t_ask)
+		 then  editTime else 0 end) as time from t_ask
+
+[ 2016-06-08T10:17:23+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: select (case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end)
+		 then  editTime else 0 end) as time from t_ask [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2016-06-08T10:17:26+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0033s ]
+SQL: select (case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end)
+		 then  editTime else 0 end) as time from t_ask [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2016-06-08T10:18:00+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0027s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as newtime)
+		 then  editTime else newtime end) as time from t_ask' at line 1
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>((case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) as newtime)
+		 then  editTime else newtime end) as time from t_ask
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as newtime)
+		 then  editTime else newtime end) as time from t_ask' at line 1
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>((case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) as newtime)
+		 then  editTime else newtime end) as time from t_ask
+
+[ 2016-06-08T10:18:02+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as newtime)
+		 then  editTime else newtime end) as time from t_ask' at line 1
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>((case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) as newtime)
+		 then  editTime else newtime end) as time from t_ask
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'as newtime)
+		 then  editTime else newtime end) as time from t_ask' at line 1
+ [ SQL语句 ] : select (case when ifnull(editTime,0)>((case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) as newtime)
+		 then  editTime else newtime end) as time from t_ask
+
+[ 2016-06-08T10:18:31+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: select (case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end)
+		 then  editTime else (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) end) as time from t_ask [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-06-08T10:18:33+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select (case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end)
+		 then  editTime else (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) end) as time from t_ask [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2016-06-08T10:19:08+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0024s ]
+SQL: select (case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end)
+		 then  editTime else (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) end) as time from t_ask order by time [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2016-06-08T10:19:18+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: select (case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end)
+		 then  editTime else (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) end) as time from t_ask order by time desc [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-06-08T10:20:56+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, (case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end)
+		 then  editTime else (case when publishTime > ifnull(answerTime,0) then publishTime else answerTime end) end) as time from t_ask order by time desc [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-06-08T10:24:23+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0024s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-06-08T10:24:24+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2016-06-08T10:24:41+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by  id order by time desc [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2016-06-08T10:24:43+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by  id order by time desc [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-06-08T10:25:35+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-06-08T10:25:38+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2016-06-08T10:32:46+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_user` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-06-08T10:33:01+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0022s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-06-08T10:33:42+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0019s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-06-08T10:37:32+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-06-08T10:37:36+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+
+[ 2016-06-08T10:39:18+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+
+[ 2016-06-08T10:39:19+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-06-08T10:39:21+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-06-08T10:39:37+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0213s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-06-08T10:39:38+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0027s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0007s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-06-08T10:40:56+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2016-06-08T10:42:29+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'askid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `t_tag` WHERE ( askid=3 ) LIMIT 1  
+ERR: 1054:Unknown column 'askid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `t_tag` WHERE ( askid=3 ) LIMIT 1  
+
+[ 2016-06-08T10:42:31+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'askid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `t_tag` WHERE ( askid=3 ) LIMIT 1  
+ERR: 1054:Unknown column 'askid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `t_tag` WHERE ( askid=3 ) LIMIT 1  
+
+[ 2016-06-08T10:45:50+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0022s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0316s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001640s ]
+
+[ 2016-06-08T10:45:55+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2016-06-08T10:46:56+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0019s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-06-08T10:47:36+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0018s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2016-06-08T10:47:37+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0019s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-06-08T10:47:37+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0019s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-06-08T10:47:38+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-06-08T10:50:34+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0016s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2016-06-08T10:50:40+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0027s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2016-06-08T10:52:22+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-06-08T10:52:57+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001954s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-06-08T10:53:01+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0022s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2016-06-08T10:55:28+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0021s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-06-08T10:55:53+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0021s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2016-06-08T10:56:48+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, 
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `t_answer` WHERE ( askid=2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `t_userinfo` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-06-08T11:14:21+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-06-08T11:17:02+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-06-08T11:17:18+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2016-06-08T11:27:16+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: userinfo D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userinfo D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: userinfo D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2016-06-08T11:27:31+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-06-08T11:27:32+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-06-08T11:27:32+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0019s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-06-08T11:27:32+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-06-08T11:27:32+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username D:\Server\wamp\www\knowhow\Application\Home\Logic\AskLogic.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-06-08T11:27:46+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0024s ]
+SQL: SELECT `name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT `name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT `name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-06-08T15:04:14+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-06-08T15:04:56+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0022s ]
+SQL: SELECT `name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT `name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT `name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2016-06-08T15:04:59+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0017s ]
+SQL: SELECT `name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT `name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT `name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001991s ]
+
+[ 2016-06-08T15:05:28+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2016-06-08T15:06:17+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0019s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,editTime,publishTime,answerTime,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-06-08T15:06:58+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,ifnull(editTime,0),publishTime,ifnull(answerTime,0),
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2016-06-08T15:07:25+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0019s ]
+SQL: select id,title,content,zan,cai,viewCount,asktype,bounty,uid, acceptid,editTime,publishTime,answerTime,
+			(case when ifnull(editTime,0)>(case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) then  editTime else (case when publishTime > ifnull(answerTime,0) 
+			then publishTime else answerTime end) end) as time from t_ask group by id order by time desc [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-06-08T15:28:07+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select id ,(select count(ta.id) from t_answer as ta where askid=id) from t_ask group by id order by viewCount desc [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-06-08T15:28:09+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0089s ]
+SQL: select id ,(select count(ta.id) from t_answer as ta where askid=id) from t_ask group by id order by viewCount desc [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001258s ]
+
+[ 2016-06-08T15:31:07+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: select id from t_ask group by id order by (select count(ta.id) from t_answer as ta where askid=id) desc [ RunTime:0.0143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-06-08T15:32:04+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0027s ]
+SQL: select id ,(select count(ta.id) from t_answer as ta where askid=id) as ansnum from t_ask group by id order by ansnum desc [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2016-06-08T15:32:55+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: select id ,(select count(ta.id) from t_answer as ta where ta.askid=id) as ansnum from t_ask group by id order by ansnum desc [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-06-08T15:32:56+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select id ,(select count(ta.id) from t_answer as ta where ta.askid=id) as ansnum from t_ask group by id order by ansnum desc [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-06-08T15:32:56+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id ,(select count(ta.id) from t_answer as ta where ta.askid=id) as ansnum from t_ask group by id order by ansnum desc [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-06-08T15:32:56+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: select id ,(select count(ta.id) from t_answer as ta where ta.askid=id) as ansnum from t_ask group by id order by ansnum desc [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2016-06-08T15:32:56+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select id ,(select count(ta.id) from t_answer as ta where ta.askid=id) as ansnum from t_ask group by id order by ansnum desc [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2016-06-08T15:33:30+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select (select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_ask as ts group by id order by ansnum desc [ RunTime:0.0190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-06-08T15:38:17+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0157s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_' at line 4
+ [ SQL语句 ] : select ts.id,ts.title,ts.content,ts.zan,ts.cai,ts.viewCount,ts.asktype,ts.bounty,ts.uid, ts.acceptid,ts.editTime,ts.publishTime,ts.answerTime,
+		(case when ifnull(ts.editTime,0)>(case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) 
+		then  ts.editTime else (case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) end) as time 
+		(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_ask as ts group by id order by viewCount desc,
+		ansnum desc, (ts.zan-ts.cai) desc
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_' at line 4
+ [ SQL语句 ] : select ts.id,ts.title,ts.content,ts.zan,ts.cai,ts.viewCount,ts.asktype,ts.bounty,ts.uid, ts.acceptid,ts.editTime,ts.publishTime,ts.answerTime,
+		(case when ifnull(ts.editTime,0)>(case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) 
+		then  ts.editTime else (case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) end) as time 
+		(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_ask as ts group by id order by viewCount desc,
+		ansnum desc, (ts.zan-ts.cai) desc
+
+[ 2016-06-08T15:38:20+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0025s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_' at line 4
+ [ SQL语句 ] : select ts.id,ts.title,ts.content,ts.zan,ts.cai,ts.viewCount,ts.asktype,ts.bounty,ts.uid, ts.acceptid,ts.editTime,ts.publishTime,ts.answerTime,
+		(case when ifnull(ts.editTime,0)>(case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) 
+		then  ts.editTime else (case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) end) as time 
+		(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_ask as ts group by id order by viewCount desc,
+		ansnum desc, (ts.zan-ts.cai) desc
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_' at line 4
+ [ SQL语句 ] : select ts.id,ts.title,ts.content,ts.zan,ts.cai,ts.viewCount,ts.asktype,ts.bounty,ts.uid, ts.acceptid,ts.editTime,ts.publishTime,ts.answerTime,
+		(case when ifnull(ts.editTime,0)>(case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) 
+		then  ts.editTime else (case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) end) as time 
+		(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_ask as ts group by id order by viewCount desc,
+		ansnum desc, (ts.zan-ts.cai) desc
+
+[ 2016-06-08T15:38:43+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0019s ]
+SQL: select ts.id,ts.title,ts.content,ts.zan,ts.cai,ts.viewCount,ts.asktype,ts.bounty,ts.uid, ts.acceptid,ts.editTime,ts.publishTime,ts.answerTime,
+		(case when ifnull(ts.editTime,0)>(case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) 
+		then  ts.editTime else (case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) end) as time, 
+		(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_ask as ts group by id order by viewCount desc,
+		ansnum desc, (ts.zan-ts.cai) desc [ RunTime:0.0344s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0017s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2016-06-08T15:38:46+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: select ts.id,ts.title,ts.content,ts.zan,ts.cai,ts.viewCount,ts.asktype,ts.bounty,ts.uid, ts.acceptid,ts.editTime,ts.publishTime,ts.answerTime,
+		(case when ifnull(ts.editTime,0)>(case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) 
+		then  ts.editTime else (case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) end) as time, 
+		(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_ask as ts group by id order by viewCount desc,
+		ansnum desc, (ts.zan-ts.cai) desc [ RunTime:0.0006s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-06-08T15:59:49+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0019s ]
+SQL: select ts.id,ts.title,ts.content,ts.zan,ts.cai,ts.viewCount,ts.asktype,ts.bounty,ts.uid, ts.acceptid,ts.editTime,ts.publishTime,ts.answerTime,
+		(case when ifnull(ts.editTime,0)>(case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) 
+		then  ts.editTime else (case when ts.publishTime > ifnull(ts.answerTime,0) then ts.publishTime else ts.answerTime end) end) as time, 
+		(select count(ta.id) from t_answer as ta where ta.askid=ts.id) as ansnum from t_ask as ts group by id order by viewCount desc,
+		ansnum desc, (ts.zan-ts.cai) desc [ RunTime:0.0017s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `t_answer` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='3' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `t_tag` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='3' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `t_userinfo` [ RunTime:0.0017s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='1' )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='1' [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `t_ask` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `t_answer` WHERE ( 1=1 AND askid='2' )  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: mapping_order D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\Server\wamp\www\knowhow\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,tagname FROM t_ask_tag AS a, t_tag AS b WHERE a.tagid = b.id AND a. askid='2' [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`reputation` FROM `t_userinfo` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-06-08T16:12:33+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '– TO_DAYS(publishTime) <= 7' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE TO_DAYS( NOW( ) ) – TO_DAYS(publishTime) <= 7 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '– TO_DAYS(publishTime) <= 7' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE TO_DAYS( NOW( ) ) – TO_DAYS(publishTime) <= 7 
+
+[ 2016-06-08T16:12:34+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0029s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '– TO_DAYS(publishTime) <= 7' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE TO_DAYS( NOW( ) ) – TO_DAYS(publishTime) <= 7 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '– TO_DAYS(publishTime) <= 7' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE TO_DAYS( NOW( ) ) – TO_DAYS(publishTime) <= 7 
+
+[ 2016-06-08T16:15:02+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(publishTime)  [ RunTime:0.0118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-06-08T16:15:04+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(publishTime)  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2016-06-08T16:15:31+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0178s ]
+SQL: SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL 3 DAY) <= date(publishTime)  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-06-08T16:18:41+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SELECT * FROM t_ask WHERE  DATE_FORMAT(publishTime, '%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-06-08T16:18:44+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0033s ]
+SQL: SELECT * FROM t_ask WHERE  DATE_FORMAT(publishTime, '%Y%m') = DATE_FORMAT(CURDATE(),'%Y%m') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2016-06-08T16:23:25+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0025s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'publishTime) = date('Y-m',time())' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE  date('Y-m',publishTime) = date('Y-m',time())
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'publishTime) = date('Y-m',time())' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE  date('Y-m',publishTime) = date('Y-m',time())
+
+[ 2016-06-08T16:23:50+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '%Y%m') = date(NOW(),'%Y%m')' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE  date(publishTime, '%Y%m') = date(NOW(),'%Y%m')
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '%Y%m') = date(NOW(),'%Y%m')' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE  date(publishTime, '%Y%m') = date(NOW(),'%Y%m')
+
+[ 2016-06-08T16:23:55+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '%Y%m') = date(NOW(),'%Y%m')' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE  date(publishTime, '%Y%m') = date(NOW(),'%Y%m')
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '%Y%m') = date(NOW(),'%Y%m')' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE  date(publishTime, '%Y%m') = date(NOW(),'%Y%m')
+
+[ 2016-06-08T16:24:16+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0161s ]
+SQL: SELECT * FROM t_ask WHERE  date_format(publishTime, '%Y%m') = date_format(NOW(),'%Y%m') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-06-08T16:24:20+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0045s ]
+SQL: SELECT * FROM t_ask WHERE  date_format(publishTime, '%Y%m') = date_format(NOW(),'%Y%m') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2016-06-08T16:24:53+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0037s ]
+SQL: SELECT * FROM t_ask WHERE  date_format(publishTime, '%Y%m%d') = date_format(NOW(),'%Y%m%d') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2016-06-08T16:25:13+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0020s ]
+SQL: SELECT * FROM t_ask WHERE  date_format(publishTime, '%Y%m%d') = date_format(NOW(),'%Y%m%d') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-06-08T17:25:43+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.098216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.084223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.117171s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:1.7486s ]
+SQL: SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL 3 DAY) <= date(publishTime)  [ RunTime:0.2134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044597s ]
+
+[ 2016-06-08T17:26:06+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL 3 DAY) <= date(publishTime)  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2016-06-08T17:26:12+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0022s ]
+SQL: SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL 3 DAY) <= date(publishTime)  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-06-08T17:31:35+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0026s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT DAYOFWEEK(CURDATE()) DAY) <= date(publishTime)' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL SELECT DAYOFWEEK(CURDATE()) DAY) <= date(publishTime) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT DAYOFWEEK(CURDATE()) DAY) <= date(publishTime)' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL SELECT DAYOFWEEK(CURDATE()) DAY) <= date(publishTime) 
+
+[ 2016-06-08T17:31:38+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT DAYOFWEEK(CURDATE()) DAY) <= date(publishTime)' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL SELECT DAYOFWEEK(CURDATE()) DAY) <= date(publishTime) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT DAYOFWEEK(CURDATE()) DAY) <= date(publishTime)' at line 1
+ [ SQL语句 ] : SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL SELECT DAYOFWEEK(CURDATE()) DAY) <= date(publishTime) 
+
+[ 2016-06-08T17:31:57+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL  DAYOFWEEK(CURDATE()) DAY) <= date(publishTime)  [ RunTime:0.0104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2016-06-08T17:31:59+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL  DAYOFWEEK(CURDATE()) DAY) <= date(publishTime)  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-06-08T17:32:54+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0023s ]
+SQL: SELECT * FROM t_ask WHERE DATE_SUB(CURDATE(), INTERVAL DAYOFWEEK(CURDATE())-1 DAY) <= date(publishTime)  [ RunTime:0.0158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2016-06-08T17:39:42+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SELECT * FROM t_ask WHERE yearweek(publishTime)= yearweek(now())  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-06-08T17:39:43+08:00 ] ::1 /knowhow/Home/Ask/ask
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `t_ask` [ RunTime:0.0021s ]
+SQL: SELECT * FROM t_ask WHERE yearweek(publishTime)= yearweek(now())  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+

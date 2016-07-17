@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>index</title>
+	<!-- <meta name="viewport" content="initial-scale=1, maximum-scale=1"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" type="text/css" href="src/dist/css/sm.css">
+  	<link rel="stylesheet" type="text/css" href="src/dist/css/sm.extends.css">
+  	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+ 	<link rel="stylesheet" type="text/css" href="css/app.css">
+    <script type="text/javascript" src="src/dist/js/zepto.js"></script>
+  	<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+  	<script type='text/javascript' src='src/dist/js/sm.js' charset='utf-8'></script>
+ 	<script type='text/javascript' src='src/dist/js/sm-extend.min.js' charset='utf-8'></script>
+ 	<script type="text/javascript" src="js/person.js"></script>
+ 	<script type="text/javascript">
+ 	$(function(){
+ 	var userInfo=JSON.parse(localStorage.getItem('uerInfo'));
+ 	$(document).on('touchstart','a.myans',function(e){
+	       $(window).on("pageLoadComplete",function(data) {//加载问题详情模版
+	   		var source=$("#info-ans-tpl").html();
+	        if(source!=null){
+	          var tmp=Handlebars.compile(source);
+	          	var rs=tmp(userInfo[0].AnsAsk);
+	       
+	          $(".ans-ask").html(rs); 
+	       } 
+	   })	
+  })
+ $(document).on('touchstart','a.myask',function(e){
+	       $(window).on("pageLoadComplete",function(data) {//加载问题详情模版
+	   		var source=$("#info-tpl").html();
+	        if(source!=null){
+	          var tmp=Handlebars.compile(source);
+	          var rs=tmp(userInfo[0].Ask);
+	       
+	          $(".ans-ask").html(rs); 
+	       } 
+	   })	
+  })
+ 	})
+ 	</script>
+</head>
+<body>
+    <div class="page-group">
+        <!-- 单个page ,第一个.page默认被展示-->
+        <!-- 主页 -->
+        <div class="page page-current" id="person_page">
+            <!-- 标题栏 -->
+            <header class="bar bar-nav"> 
+            	 <a class="button button-link button-nav pull-left back" href="#">
+				      <span class="icon icon-left"></span>
+				    </a>
+                <!-- <a href="javascript:;" class="icon icon-edit pull-right open-popup open-about edit_userinfo_btn" data-popup="#edit_myinfo"></a> -->
+                <a href="home.html" class="tab-item external pull-right active">
+                    <span class="icon icon-home"></span>
+                </a>
+                <h1 class="title">个人中心</h1>
+            </header>
+				
+            <!-- 这里是页面内容区 -->
+
+            <div class="content">
+	         
+			    
+	            
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

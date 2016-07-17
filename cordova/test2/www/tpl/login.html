@@ -1,0 +1,25 @@
+<header class="bar bar-nav">
+      <h1 class="title">个人资料</h1>
+    </header>
+    <div class="content-block">
+        <img src="img/logo.png" style="width:50px;height:50px;border-radius:100px;margin-top:30%;margin-left:30%">
+    </div>
+    <div class="list-block">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-media"><i class="iconfont jikediancanicon03">&#xe601;</i></div>
+              <div class="item-inner" id='name'>
+                
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="row">
+          <a class="button button-big button-fill button-danger layout" style="width: 80%;margin-left: 13%">退出登录</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+      var myinfo=JSON.parse(localStorage.getItem('myInfo'));
+      $('#name').text(myinfo[0].Userinfo.name);
+    </script>
